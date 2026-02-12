@@ -160,7 +160,7 @@ const AEON_PRODUCTS = [
   //   await page.waitForTimeout(1000);
   // }
 
-  // await browser.close();
+  await browser.close();
 
   /* ---------- COOP (API) ---------- */
   for (const item of COOP_PRODUCTS) {
