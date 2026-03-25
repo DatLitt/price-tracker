@@ -37,7 +37,7 @@ export async function scrapeGO({ url, item_id }) {
     await page.goto(url, { waitUntil: "networkidle" });
 
     // đợi API call hoàn tất
-    await page.waitForTimeout(2000);
+    // await page.waitForTimeout(2000);
 
     if (!apiData) {
       throw new Error("GO API data not captured");

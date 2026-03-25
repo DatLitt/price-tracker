@@ -141,7 +141,7 @@ const AEON_PRODUCTS = [
       console.error("❌ GO failed:", err.message);
     }
 
-    await page.waitForTimeout(1500);
+    // await page.waitForTimeout(1500);
   }
   /* ---------- AEON ---------- */
   // for (const url of AEON_PRODUCTS) {
